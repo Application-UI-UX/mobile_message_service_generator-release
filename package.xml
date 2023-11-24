@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mobile_message_service_generator</name>
+  <version>0.4.3</version>
+  <description> Java ROS message and service generators. </description>
+  <license>Apache 2.0</license>
+  <author>Ronaldson Bellande</author>
+
+  <maintainer email="ronaldsonbellande@gmail.com">Ronaldson Bellande</maintainer>
+
+
+  <buildtool_depend condition="$ROS_VERSION == 1">catkin</buildtool_depend>
+
+  <build_depend condition="$ROS_VERSION == 1">genmsg</build_depend>
+  <build_depend condition="$ROS_VERSION == 1">python-catkin-pkg</build_depend>
+  <build_depend condition="$ROS_VERSION == 1">python-rospkg</build_depend>
+  <build_depend condition="$ROS_VERSION == 1">mobile_catkin_gradle_plugins</build_depend>
+  <build_depend condition="$ROS_VERSION == 1">mobile_catkin_modules_build_development_tools</build_depend>
+
+  <build_export_depend condition="$ROS_VERSION == 1">genmsg</build_export_depend>
+  <build_export_depend condition="$ROS_VERSION == 1">python-catkin-pkg</build_export_depend>
+  <build_export_depend condition="$ROS_VERSION == 1">python-rospkg</build_export_depend>
+  <build_export_depend condition="$ROS_VERSION == 1">mobile_catkin_gradle_plugins</build_export_depend>
+  <build_export_depend condition="$ROS_VERSION == 1">mobile_catkin_modules_build_development_tools</build_export_depend>
+
+  <exec_depend condition="$ROS_VERSION == 1">genmsg</exec_depend>
+  <exec_depend condition="$ROS_VERSION == 1">python-catkin-pkg</exec_depend>
+  <exec_depend condition="$ROS_VERSION == 1">python-rospkg</exec_depend>
+  <exec_depend condition="$ROS_VERSION == 1">mobile_catkin_gradle_plugins</exec_depend>
+  <exec_depend condition="$ROS_VERSION == 1">mobile_catkin_modules_build_development_tools</exec_depend>
+
+
+  <buildtool_depend condition="$ROS_VERSION == 2">ament_cmake</buildtool_depend>
+
+  <build_depend condition="$ROS_VERSION == 2">genmsg</build_depend>
+  <build_depend condition="$ROS_VERSION == 2">python-catkin-pkg</build_depend>
+  <build_depend condition="$ROS_VERSION == 2">python-rospkg</build_depend>
+  <build_depend condition="$ROS_VERSION == 2">mobile_catkin_gradle_plugins</build_depend>
+  <build_depend condition="$ROS_VERSION == 2">mobile_catkin_modules_build_development_tools</build_depend>
+
+  <build_export_depend condition="$ROS_VERSION == 2">genmsg</build_export_depend>
+  <build_export_depend condition="$ROS_VERSION == 2">python-catkin-pkg</build_export_depend>
+  <build_export_depend condition="$ROS_VERSION == 2">python-rospkg</build_export_depend>
+  <build_export_depend condition="$ROS_VERSION == 2">mobile_catkin_gradle_plugins</build_export_depend>
+  <build_export_depend condition="$ROS_VERSION == 2">mobile_catkin_modules_build_development_tools</build_export_depend>
+
+  <exec_depend condition="$ROS_VERSION == 2">genmsg</exec_depend>
+  <exec_depend condition="$ROS_VERSION == 2">python-catkin-pkg</exec_depend>
+  <exec_depend condition="$ROS_VERSION == 2">python-rospkg</exec_depend>
+  <exec_depend condition="$ROS_VERSION == 2">mobile_catkin_gradle_plugins</exec_depend>
+  <exec_depend condition="$ROS_VERSION == 2">mobile_catkin_modules_build_development_tools</exec_depend>
+
+
+  <export>
+    <message_generator>java</message_generator>
+    <rosdoc config="rosdoc.yaml" />
+    <architecture_independent />
+  </export>
+</package>

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: genmobile
+Description: Description of genmobile
+Version: 0.4.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: genmsg rosmobile_build_tools

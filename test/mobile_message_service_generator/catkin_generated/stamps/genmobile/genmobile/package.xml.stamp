@@ -1,0 +1,35 @@
+<package>
+  <name>genmobile</name>
+  <version>0.4.3</version>
+  <description> Java ROS message and service generators. </description>
+  <license>BSD</license>
+
+  <url type="website">http://www.ros.org/wiki/genmobile</url>
+  <url type="repository">https://github.com/rosmobile/genmobile</url>
+  <url type="bugtracker">https://github.com/rosmobile/genmobile/issues</url>
+  <author>Daniel Stonier</author>
+  <author>Ronaldson Bellande</author>
+  <maintainer email="ronaldsonbellande@gmail.com">Ronaldson Bellande</maintainer>
+
+  <buildtool_depend version_gte="0.5.78">catkin</buildtool_depend>
+
+  <build_depend>genmsg</build_depend>
+  <build_depend>rosmobile_build_tools</build_depend>
+  <build_depend>python-catkin-pkg</build_depend>
+  <build_depend>python-rospkg</build_depend>
+  <build_depend>rosmobile_bootstrap</build_depend>
+  <build_depend>rosmobile_build_tools</build_depend>
+
+  <run_depend>genmsg</run_depend>
+  <run_depend>rosmobile_build_tools</run_depend>
+  <run_depend>python-catkin-pkg</run_depend>
+  <run_depend>python-rospkg</run_depend>
+  <run_depend>rosmobile_bootstrap</run_depend>
+  <run_depend>rosmobile_build_tools</run_depend>
+
+  <export>
+    <message_generator>java</message_generator>
+    <rosdoc config="rosdoc.yaml" />
+    <architecture_independent />
+  </export>
+</package>
