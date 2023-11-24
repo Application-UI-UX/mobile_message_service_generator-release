@@ -18,7 +18,7 @@ tracks:
     last_version: 0.4.3
     name: mobile_message_service_generator
     patches: null
-    release_inc: '1'
+    release_inc: '2'
     release_repo_url: git@github.com:Application-UI-UX/mobile_message_service_generator-release.git
     release_tag: :{version}
     ros_distro: noetic
